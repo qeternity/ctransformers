@@ -15,15 +15,17 @@ Python bindings for the Transformer models implemented in C/C++ using [GGML](htt
 
 ## Supported Models
 
-| Models              | Model Type  |
-| :------------------ | ----------- |
-| GPT-2               | `gpt2`      |
-| GPT-J, GPT4All-J    | `gptj`      |
-| GPT-NeoX, StableLM  | `gpt_neox`  |
-| LLaMA               | `llama`     |
-| MPT                 | `mpt`       |
-| Dolly V2            | `dolly-v2`  |
-| StarCoder, StarChat | `starcoder` |
+| Models                | Model Type  |
+| :-------------------- | ----------- |
+| GPT-2                 | `gpt2`      |
+| GPT-J, GPT4All-J      | `gptj`      |
+| GPT-NeoX, StableLM    | `gpt_neox`  |
+| LLaMA                 | `llama`     |
+| MPT                   | `mpt`       |
+| Dolly V2              | `dolly-v2`  |
+| Replit                | `replit`    |
+| StarCoder, StarChat   | `starcoder` |
+| Falcon (Experimental) | `falcon`    |
 
 ## Installation
 
@@ -130,7 +132,7 @@ See [marella/gpt-2-ggml](https://huggingface.co/marella/gpt-2-ggml/blob/main/con
 
 ### LangChain
 
-It is integrated into LangChain. See [LangChain docs](https://python.langchain.com/en/latest/integrations/ctransformers.html).
+It is integrated into LangChain. See [LangChain docs](https://python.langchain.com/docs/ecosystem/integrations/ctransformers).
 
 ### GPU
 
